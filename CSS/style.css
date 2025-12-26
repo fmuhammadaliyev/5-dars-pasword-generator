@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(17, 16, 29);
+  font-family: "JetBrains Mono";
+  color: white;
+}
 .container {
   display: flex;
   justify-content: center;
   padding: 30px;
+  font-family: "JetBrains Mono";
 }
