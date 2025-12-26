@@ -21,7 +21,7 @@ copyBtn.addEventListener("click", () => {
       }, 2000);
     })
     .catch(() => {
-      copyStatus.textContent = "❌ Copy failed!";
+      copyStatus.textContent = "Copy failed!";
       copyStatus.style.opacity = "1";
       setTimeout(() => {
         copyStatus.style.opacity = "0";
